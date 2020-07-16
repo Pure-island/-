@@ -1,0 +1,31 @@
+ISim log file
+Running: D:\study\DDandCA\Verilog\adder\addertest_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb D:/study/DDandCA/Verilog/adder/addertest_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+0ns monitor: A= 0, B= 0, Cin=0, Sum= z, Overflow=z
+50ns monitor: A= 0, B= 0, Cin=1, Sum= z, Overflow=z
+100ns monitor: A= 1, B= 0, Cin=0, Sum= z, Overflow=z
+150ns monitor: A= 1, B= 0, Cin=1, Sum= z, Overflow=z
+200ns monitor: A= 2, B= 1, Cin=0, Sum= z, Overflow=z
+250ns monitor: A= 2, B= 1, Cin=1, Sum= z, Overflow=z
+300ns monitor: A= 3, B= 1, Cin=0, Sum= z, Overflow=z
+350ns monitor: A= 3, B= 1, Cin=1, Sum= z, Overflow=z
+400ns monitor: A= 4, B= 2, Cin=0, Sum= z, Overflow=z
+450ns monitor: A= 4, B= 2, Cin=1, Sum= z, Overflow=z
+500ns monitor: A= 5, B= 2, Cin=0, Sum= z, Overflow=z
+550ns monitor: A= 5, B= 2, Cin=1, Sum= z, Overflow=z
+600ns monitor: A= 6, B= 3, Cin=0, Sum= z, Overflow=z
+650ns monitor: A= 6, B= 3, Cin=1, Sum= z, Overflow=z
+700ns monitor: A= 7, B= 3, Cin=0, Sum= z, Overflow=z
+750ns monitor: A= 7, B= 3, Cin=1, Sum= z, Overflow=z
+800ns monitor: A= 8, B= 4, Cin=0, Sum= z, Overflow=z
+850ns monitor: A= 8, B= 4, Cin=1, Sum= z, Overflow=z
+900ns monitor: A= 9, B= 4, Cin=0, Sum= z, Overflow=z
+950ns monitor: A= 9, B= 4, Cin=1, Sum= z, Overflow=z
+Stopped at time : 1 us : File "D:/study/DDandCA/Verilog/adder/addertest.v" Line 46

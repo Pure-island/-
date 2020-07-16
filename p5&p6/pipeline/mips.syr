@@ -1,0 +1,236 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.30 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.30 secs
+ 
+--> Reading design: mips.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "mips.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "mips"
+Output Format                      : NGC
+Target Device                      : xc7a100t-3-csg324
+
+---- Source Options
+Top Module Name                    : mips
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 32
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "D:\study\DDandCA\p5\pipeline\MUX32.v" into library work
+Parsing module <MUX32>.
+Analyzing Verilog file "D:\study\DDandCA\p5\pipeline\RF.v" into library work
+Parsing module <RF>.
+Analyzing Verilog file "D:\study\DDandCA\p5\pipeline\PC.v" into library work
+Parsing module <PC>.
+Analyzing Verilog file "D:\study\DDandCA\p5\pipeline\NPC_j.v" into library work
+Parsing module <NPC_j>.
+Analyzing Verilog file "D:\study\DDandCA\p5\pipeline\NPC.v" into library work
+Parsing module <NPC_beq>.
+Analyzing Verilog file "D:\study\DDandCA\p5\pipeline\MUX5.v" into library work
+Parsing module <MUX5>.
+Analyzing Verilog file "D:\study\DDandCA\p5\pipeline\IM.v" into library work
+Parsing module <IM>.
+Analyzing Verilog file "D:\study\DDandCA\p5\pipeline\EXT.v" into library work
+Parsing module <EXT>.
+Analyzing Verilog file "D:\study\DDandCA\p5\pipeline\DM.v" into library work
+Parsing module <DM>.
+Analyzing Verilog file "D:\study\DDandCA\p5\pipeline\control.v" into library work
+Parsing module <control>.
+Analyzing Verilog file "D:\study\DDandCA\p5\pipeline\CMP.v" into library work
+Parsing module <CMP>.
+Analyzing Verilog file "D:\study\DDandCA\p5\pipeline\ALU.v" into library work
+Parsing module <ALU>.
+Analyzing Verilog file "D:\study\DDandCA\p5\pipeline\ADD4.v" into library work
+Parsing module <ADD4>.
+Analyzing Verilog file "D:\study\DDandCA\p5\pipeline\W.v" into library work
+Parsing module <W>.
+Analyzing Verilog file "D:\study\DDandCA\p5\pipeline\M_W_pipe.v" into library work
+Parsing module <M_W_pipe>.
+Analyzing Verilog file "D:\study\DDandCA\p5\pipeline\M.v" into library work
+Parsing module <M>.
+Analyzing Verilog file "D:\study\DDandCA\p5\pipeline\Forward.v" into library work
+Parsing module <Forward>.
+Analyzing Verilog file "D:\study\DDandCA\p5\pipeline\F.v" into library work
+Parsing module <F>.
+Analyzing Verilog file "D:\study\DDandCA\p5\pipeline\E_M_pipe.v" into library work
+Parsing module <E_M_pipe>.
+Analyzing Verilog file "D:\study\DDandCA\p5\pipeline\E.v" into library work
+Parsing module <E>.
+Analyzing Verilog file "D:\study\DDandCA\p5\pipeline\D_pipe.v" into library work
+Parsing module <F_D_pipe>.
+Analyzing Verilog file "D:\study\DDandCA\p5\pipeline\D_E_pipe.v" into library work
+Parsing module <D_E_pipe>.
+Analyzing Verilog file "D:\study\DDandCA\p5\pipeline\D.v" into library work
+Parsing module <D>.
+Analyzing Verilog file "D:\study\DDandCA\p5\pipeline\mips.v" into library work
+Parsing module <mips>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <mips>.
+
+Elaborating module <F>.
+
+Elaborating module <PC>.
+
+Elaborating module <ADD4>.
+
+Elaborating module <IM>.
+Reading initialization file \"code.txt\".
+WARNING:HDLCompiler:1670 - "D:\study\DDandCA\p5\pipeline\IM.v" Line 31: Signal <Imem> in initial block is partially initialized.
+WARNING:HDLCompiler:1127 - "D:\study\DDandCA\p5\pipeline\IM.v" Line 35: Assignment to n0 ignored, since the identifier is never used
+
+Elaborating module <MUX32>.
+WARNING:HDLCompiler:552 - "D:\study\DDandCA\p5\pipeline\F.v" Line 38: Input port c[31] is not connected on this instance
+
+Elaborating module <F_D_pipe>.
+
+Elaborating module <D>.
+
+Elaborating module <control>.
+WARNING:HDLCompiler:1127 - "D:\study\DDandCA\p5\pipeline\D.v" Line 55: Assignment to RegDst ignored, since the identifier is never used
+
+Elaborating module <RF>.
+"D:\study\DDandCA\p5\pipeline\RF.v" Line 55. $display  32'b................................ 6'b0..... 32'b................................
+
+Elaborating module <EXT>.
+WARNING:HDLCompiler:1127 - "D:\study\DDandCA\p5\pipeline\EXT.v" Line 29: Assignment to one ignored, since the identifier is never used
+
+Elaborating module <NPC_beq>.
+
+Elaborating module <NPC_j>.
+WARNING:HDLCompiler:413 - "D:\study\DDandCA\p5\pipeline\NPC_j.v" Line 27: Result of 34-bit expression is truncated to fit in 32-bit target.
+
+Elaborating module <CMP>.
+WARNING:HDLCompiler:1127 - "D:\study\DDandCA\p5\pipeline\mips.v" Line 39: Assignment to J_D ignored, since the identifier is never used
+
+Elaborating module <D_E_pipe>.
+
+Elaborating module <E>.
+WARNING:HDLCompiler:1127 - "D:\study\DDandCA\p5\pipeline\E.v" Line 49: Assignment to MemtoReg ignored, since the identifier is never used
+
+Elaborating module <ALU>.
+
+Elaborating module <MUX5>.
+WARNING:HDLCompiler:552 - "D:\study\DDandCA\p5\pipeline\E.v" Line 51: Input port c[31] is not connected on this instance
+WARNING:HDLCompiler:552 - "D:\study\DDandCA\p5\pipeline\E.v" Line 53: Input port c[31] is not connected on this instance
+WARNING:HDLCompiler:1127 - "D:\study\DDandCA\p5\pipeline\mips.v" Line 41: Assignment to B_E ignored, since the identifier is never used
+
+Elaborating module <E_M_pipe>.
+
+Elaborating module <M>.
+WARNING:HDLCompiler:1127 - "D:\study\DDandCA\p5\pipeline\M.v" Line 51: Assignment to RegDst ignored, since the identifier is never used
+
+Elaborating module <DM>.
+ERROR:HDLCompiler:569 - "D:\study\DDandCA\p5\pipeline\DM.v" Line 36: Loop count limit exceeded. Condition is never false.
+Module DM remains a blackbox, due to errors in its contents
+WARNING:HDLCompiler:1499 - "D:\study\DDandCA\p5\pipeline\DM.v" Line 21: Empty module <DM> remains a black box.
+WARNING:HDLCompiler:1127 - "D:\study\DDandCA\p5\pipeline\mips.v" Line 43: Assignment to Cal_r_M ignored, since the identifier is never used
+
+Elaborating module <M_W_pipe>.
+
+Elaborating module <W>.
+WARNING:HDLCompiler:1127 - "D:\study\DDandCA\p5\pipeline\W.v" Line 47: Assignment to RegDst ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "D:\study\DDandCA\p5\pipeline\mips.v" Line 45: Assignment to Cal_r_W ignored, since the identifier is never used
+
+Elaborating module <Forward>.
+WARNING:HDLCompiler:634 - "D:\study\DDandCA\p5\pipeline\mips.v" Line 40: Net <D_stall> does not have a driver.
+--> 
+
+Total memory usage is 4588828 kilobytes
+
+Number of errors   :    1 (   0 filtered)
+Number of warnings :   17 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

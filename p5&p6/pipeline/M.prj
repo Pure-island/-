@@ -1,0 +1,3 @@
+verilog work "DM.v"
+verilog work "control.v"
+verilog work "M.v"

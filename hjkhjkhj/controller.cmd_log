@@ -1,0 +1,1 @@
+vhdtdtfi -lang verilog -prj hjkhjkhj -o D:/study/DDandCA/hjkhjkhj/controller.tfi -lib work D:/study/DDandCA/BUAA_CO-master(1)/P7/P7_﾿ÎÉÏ//controller.v -module controller -template D:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

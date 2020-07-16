@@ -1,0 +1,44 @@
+ISim log file
+Running: D:\study\DDandCA\Verilog\p4_yj\test1_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb D:/study/DDandCA/Verilog/p4_yj/test1_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+@00003000: $ 4 <= 0000006f
+@00003004: $ 5 <= 000000de
+@0000300c: $ 6 <= 007b0000
+@00003014: $16 <= 007b006f
+@00003018: $17 <= 0000006f
+@00003028: *00000000 <= 0000006f
+@0000302c: *00000004 <= 000000de
+@00003030: $ 8 <= 0000006f
+@00003034: $ 9 <= 000000de
+@00003038: $31 <= 0000303c
+@00003040: $21 <= 00f600de
+@0000303c: $16 <= 00f600de
+@00003040: $21 <= 01ec01bc
+@0000303c: $16 <= 01ec01bc
+@00003040: $21 <= 03d80378
+@0000303c: $16 <= 03d80378
+@00003040: $21 <= 07b006f0
+@0000303c: $16 <= 07b006f0
+@00003040: $21 <= 0f600de0
+@0000303c: $16 <= 0f600de0
+@00003040: $21 <= 1ec01bc0
+@0000303c: $16 <= 1ec01bc0
+@00003040: $21 <= 3d803780
+@0000303c: $16 <= 3d803780
+@00003040: $21 <= 7b006f00
+@0000303c: $16 <= 7b006f00
+@00003040: $21 <= f600de00
+@0000303c: $16 <= f600de00
+@00003040: $21 <= ec01bc00
+@0000303c: $16 <= ec01bc00
+@00003040: $21 <= d8037800
+@0000303c: $16 <= d8037800
+@00003040: $21 <= b006f000
+@0000303c: $16 <= b006f000

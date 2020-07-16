@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "D:/study/DDandCA/Verilog/pipeline/pipeline.xst" -ofn "D:/study/DDandCA/Verilog/pipeline/pipeline.syr" 

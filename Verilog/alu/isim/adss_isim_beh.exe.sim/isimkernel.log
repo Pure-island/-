@@ -1,0 +1,28 @@
+Command line:
+   adss_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  58677
+
+Wed Oct 23 19:59:12 2019
+
+
+ Elaboration Time: 0.328125 sec
+
+ Current Memory Usage: 5836.12 Meg
+
+ Total Signals          : 16
+ Total Nets             : 276
+ Total Signal Drivers   : 7
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 10
+ Total Traceable Variables  : 21
+ Total Scalar Nets and Variables : 651
+
+ Total Simulation Time: 0.328125 sec
+
+ Current Memory Usage: 5836.09 Meg
+
+Wed Oct 23 20:00:07 2019
+

@@ -1,0 +1,243 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.15 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.15 secs
+ 
+--> Reading design: test.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "test.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "test"
+Output Format                      : NGC
+Target Device                      : xc7a100t-3-csg324
+
+---- Source Options
+Top Module Name                    : test
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 32
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "D:\study\DDandCA\BUAA_CO-master(1)\P7\P7_课上\WB.v" into library work
+Parsing module <WB>.
+Analyzing Verilog file "D:\study\DDandCA\BUAA_CO-master(1)\P7\P7_课上\pc.v" into library work
+Parsing module <pc>.
+Analyzing Verilog file "D:\study\DDandCA\BUAA_CO-master(1)\P7\P7_课上\npc.v" into library work
+Parsing module <npc>.
+Analyzing Verilog file "D:\study\DDandCA\BUAA_CO-master(1)\P7\P7_课上\mux.v" into library work
+Parsing module <mux>.
+Analyzing Verilog file "D:\study\DDandCA\BUAA_CO-master(1)\P7\P7_课上\Mult_Div.v" into library work
+Parsing module <Mult_Div>.
+Analyzing Verilog file "D:\study\DDandCA\BUAA_CO-master(1)\P7\P7_课上\MEM.v" into library work
+Parsing module <MEM>.
+Analyzing Verilog file "D:\study\DDandCA\BUAA_CO-master(1)\P7\P7_课上\im.v" into library work
+Parsing module <im>.
+Analyzing Verilog file "D:\study\DDandCA\BUAA_CO-master(1)\P7\P7_课上\ID.v" into library work
+Parsing module <ID>.
+Analyzing Verilog file "D:\study\DDandCA\BUAA_CO-master(1)\P7\P7_课上\hazardUnit.v" into library work
+Parsing module <hazardUnit>.
+Analyzing Verilog file "D:\study\DDandCA\BUAA_CO-master(1)\P7\P7_课上\grf.v" into library work
+Parsing module <grf>.
+Analyzing Verilog file "D:\study\DDandCA\BUAA_CO-master(1)\P7\P7_课上\forward_mux.v" into library work
+Parsing module <forward_mux>.
+Analyzing Verilog file "D:\study\DDandCA\BUAA_CO-master(1)\P7\P7_课上\ext.v" into library work
+Parsing module <ext>.
+Analyzing Verilog file "D:\study\DDandCA\BUAA_CO-master(1)\P7\P7_课上\ExcCode.v" into library work
+Parsing module <ExcCode>.
+Analyzing Verilog file "D:\study\DDandCA\BUAA_CO-master(1)\P7\P7_课上\EX.v" into library work
+Parsing module <EX>.
+Analyzing Verilog file "D:\study\DDandCA\BUAA_CO-master(1)\P7\P7_课上\dm.v" into library work
+Parsing module <dm>.
+Analyzing Verilog file "D:\study\DDandCA\BUAA_CO-master(1)\P7\P7_课上\DataExt.v" into library work
+Parsing module <DataExt>.
+Analyzing Verilog file "D:\study\DDandCA\BUAA_CO-master(1)\P7\P7_课上\CP0.v" into library work
+Parsing module <CP0>.
+Analyzing Verilog file "D:\study\DDandCA\BUAA_CO-master(1)\P7\P7_课上\controller.v" into library work
+Parsing module <controller>.
+Analyzing Verilog file "D:\study\DDandCA\BUAA_CO-master(1)\P7\P7_课上\cmp.v" into library work
+Parsing module <cmp>.
+Analyzing Verilog file "D:\study\DDandCA\BUAA_CO-master(1)\P7\P7_课上\alu.v" into library work
+Parsing module <alu>.
+Analyzing Verilog file "D:\study\DDandCA\BUAA_CO-master(1)\P7\P7_课上\DEV1.v" into library work
+Parsing module <DEV1>.
+Analyzing Verilog file "D:\study\DDandCA\BUAA_CO-master(1)\P7\P7_课上\DEV0.v" into library work
+Parsing module <DEV0>.
+Analyzing Verilog file "D:\study\DDandCA\BUAA_CO-master(1)\P7\P7_课上\CPU.v" into library work
+Parsing module <CPU>.
+Analyzing Verilog file "D:\study\DDandCA\BUAA_CO-master(1)\P7\P7_课上\Bridge.v" into library work
+Parsing module <Bridge>.
+Analyzing Verilog file "D:\study\DDandCA\BUAA_CO-master(1)\P7\P7_课上\mips.v" into library work
+Parsing module <mips>.
+Analyzing Verilog file "D:\study\DDandCA\BUAA_CO-master(1)\P7\P7_课上\test.v" into library work
+Parsing module <test>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <test>.
+WARNING:HDLCompiler:872 - "D:\study\DDandCA\BUAA_CO-master(1)\P7\P7_ 
+
+Elaborating module <mips>.
+WARNING:HDLCompiler:1016 - "D:\study\DDandCA\BUAA_CO-master(1)\P7\P7_ 
+WARNING:HDLCompiler:1016 - "D:\study\DDandCA\BUAA_CO-master(1)\P7\P7_ g
+WARNING:HDLCompiler:1016 - "D:\study\DDandCA\BUAA_CO-master(1)\P7\P7_ >
+WARNING:HDLCompiler:1016 - "D:\study\DDandCA\BUAA_CO-master(1)\P7\P7_ g
+
+Elaborating module <CPU>.
+
+Elaborating module <pc>.
+WARNING:HDLCompiler:413 - "D:\study\DDandCA\BUAA_CO-master(1)\P7\P7_ 
+
+Elaborating module <im>.
+Reading initialization file \":\study\DDandCA\BUAA_CO-master(1)\P7\P7_课上\/code.txt\".
+WARNING:HDLCompiler:1670 - "D:\study\DDandCA\BUAA_CO-master(1)\P7\P7_ =
+Reading initialization file \":\study\DDandCA\BUAA_CO-master(1)\P7\P7_课上\/code_handler.txt\".
+WARNING:HDLCompiler:1670 - "D:\study\DDandCA\BUAA_CO-master(1)\P7\P7_ =
+
+Elaborating module <ID>.
+WARNING:HDLCompiler:413 - "D:\study\DDandCA\BUAA_CO-master(1)\P7\P7_ 
+
+Elaborating module <ExcCode>.
+
+Elaborating module <controller>.
+
+Elaborating module <grf>.
+"D:\study\DDandCA\BUAA_CO-master(1)\P7\P7_课上\grf.v" Line 55. $display  32'b................................ 5'b..... 32'b................................
+
+Elaborating module <cmp>.
+
+Elaborating module <ext>.
+
+Elaborating module <npc>.
+
+Elaborating module <EX>.
+WARNING:HDLCompiler:413 - "D:\study\DDandCA\BUAA_CO-master(1)\P7\P7_ 
+
+Elaborating module <alu>.
+
+Elaborating module <Mult_Div>.
+
+Elaborating module <MEM>.
+WARNING:HDLCompiler:413 - "D:\study\DDandCA\BUAA_CO-master(1)\P7\P7_ 
+
+Elaborating module <dm>.
+"D:\study\DDandCA\BUAA_CO-master(1)\P7\P7_课上\dm.v" Line 55. $display  32'b................................ 32'b..............................00 32'b................................
+"D:\study\DDandCA\BUAA_CO-master(1)\P7\P7_课上\dm.v" Line 59. $display  32'b................................ 32'b..............................00 32'b................................
+"D:\study\DDandCA\BUAA_CO-master(1)\P7\P7_课上\dm.v" Line 66. $display  32'b................................ 32'b..............................00 32'b................................
+"D:\study\DDandCA\BUAA_CO-master(1)\P7\P7_课上\dm.v" Line 70. $display  32'b................................ 32'b..............................00 32'b................................
+"D:\study\DDandCA\BUAA_CO-master(1)\P7\P7_课上\dm.v" Line 74. $display  32'b................................ 32'b..............................00 32'b................................
+"D:\study\DDandCA\BUAA_CO-master(1)\P7\P7_课上\dm.v" Line 78. $display  32'b................................ 32'b..............................00 32'b................................
+"D:\study\DDandCA\BUAA_CO-master(1)\P7\P7_课上\dm.v" Line 84. $display  32'b................................ 32'b................................ 32'b................................
+
+Elaborating module <CP0>.
+
+Elaborating module <WB>.
+WARNING:HDLCompiler:1127 - "D:\study\DDandCA\BUAA_CO-master(1)\P7\P7_ 
+
+Elaborating module <DataExt>.
+
+Elaborating module <mux>.
+
+Elaborating module <forward_mux>.
+
+Elaborating module <hazardUnit>.
+WARNING:HDLCompiler:413 - "D:\study\DDandCA\BUAA_CO-master(1)\P7\P7_ 
+WARNING:HDLCompiler:413 - "D:\study\DDandCA\BUAA_CO-master(1)\P7\P7_ 
+WARNING:HDLCompiler:413 - "D:\study\DDandCA\BUAA_CO-master(1)\P7\P7_ 
+WARNING:HDLCompiler:413 - "D:\study\DDandCA\BUAA_CO-master(1)\P7\P7_ 
+WARNING:HDLCompiler:413 - "D:\study\DDandCA\BUAA_CO-master(1)\P7\P7_ 
+WARNING:HDLCompiler:413 - "D:\study\DDandCA\BUAA_CO-master(1)\P7\P7_ 
+
+Elaborating module <Bridge>.
+
+Elaborating module <DEV0>.
+
+Elaborating module <DEV1>.

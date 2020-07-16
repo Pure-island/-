@@ -1,0 +1,5 @@
+verilog work "MUX5.v"
+verilog work "MUX32.v"
+verilog work "control.v"
+verilog work "ALU.v"
+verilog work "E.v"

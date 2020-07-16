@@ -1,0 +1,68 @@
+Running: D:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o D:/study/DDandCA/p5/pipeline/test_isim_beh.exe -prj D:/study/DDandCA/p5/pipeline/test_beh.prj work.test work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 12
+Turning on mult-threading, number of parallel sub-compilation jobs: 24 
+Determining compilation order of HDL files
+Analyzing Verilog file "D:/study/DDandCA/p5/pipeline/MUX32.v" into library work
+Analyzing Verilog file "D:/study/DDandCA/p5/pipeline/RF.v" into library work
+Analyzing Verilog file "D:/study/DDandCA/p5/pipeline/PC.v" into library work
+Analyzing Verilog file "D:/study/DDandCA/p5/pipeline/NPC_j.v" into library work
+Analyzing Verilog file "D:/study/DDandCA/p5/pipeline/NPC.v" into library work
+Analyzing Verilog file "D:/study/DDandCA/p5/pipeline/MUX5.v" into library work
+Analyzing Verilog file "D:/study/DDandCA/p5/pipeline/mul_div.v" into library work
+Analyzing Verilog file "D:/study/DDandCA/p5/pipeline/IM.v" into library work
+Analyzing Verilog file "D:/study/DDandCA/p5/pipeline/EXT.v" into library work
+Analyzing Verilog file "D:/study/DDandCA/p5/pipeline/DM.v" into library work
+Analyzing Verilog file "D:/study/DDandCA/p5/pipeline/control.v" into library work
+Analyzing Verilog file "D:/study/DDandCA/p5/pipeline/CMP.v" into library work
+Analyzing Verilog file "D:/study/DDandCA/p5/pipeline/ALU.v" into library work
+Analyzing Verilog file "D:/study/DDandCA/p5/pipeline/ADD4.v" into library work
+Analyzing Verilog file "D:/study/DDandCA/p5/pipeline/W.v" into library work
+Analyzing Verilog file "D:/study/DDandCA/p5/pipeline/M_W_pipe.v" into library work
+Analyzing Verilog file "D:/study/DDandCA/p5/pipeline/M.v" into library work
+Analyzing Verilog file "D:/study/DDandCA/p5/pipeline/Forward.v" into library work
+Analyzing Verilog file "D:/study/DDandCA/p5/pipeline/F.v" into library work
+Analyzing Verilog file "D:/study/DDandCA/p5/pipeline/E_M_pipe.v" into library work
+Analyzing Verilog file "D:/study/DDandCA/p5/pipeline/E.v" into library work
+Analyzing Verilog file "D:/study/DDandCA/p5/pipeline/D_pipe.v" into library work
+Analyzing Verilog file "D:/study/DDandCA/p5/pipeline/D_E_pipe.v" into library work
+Analyzing Verilog file "D:/study/DDandCA/p5/pipeline/D.v" into library work
+Analyzing Verilog file "D:/study/DDandCA/p5/pipeline/mips.v" into library work
+Analyzing Verilog file "D:/study/DDandCA/p5/pipeline/test.v" into library work
+Analyzing Verilog file "D:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:189 - "D:/study/DDandCA/p5/pipeline/D.v" Line 59: Size mismatch in connection of port <IR_W>. Formal port size is 1-bit while actual signal size is 32-bit.
+Completed static elaboration
+Compiling module PC
+Compiling module ADD4
+Compiling module IM
+Compiling module MUX32
+Compiling module F
+Compiling module F_D_pipe
+Compiling module control
+Compiling module RF
+Compiling module EXT
+Compiling module NPC_beq
+Compiling module NPC_j
+Compiling module CMP
+Compiling module D
+Compiling module D_E_pipe
+Compiling module ALU
+Compiling module mul_div
+Compiling module MUX5
+Compiling module E
+Compiling module E_M_pipe
+Compiling module DM
+Compiling module M
+Compiling module M_W_pipe
+Compiling module W
+Compiling module Forward
+Compiling module mips
+Compiling module test
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+WARNING:Simulator - Unable to copy libPortabilityNOSH.dll to the simulation executable directory: boost::filesystem::copy_file: 系统找不到指定的路径。, "isim\test_isim_beh.exe.sim\libPortability.dll".
+Compiled 27 Verilog Units
+Built simulation executable D:/study/DDandCA/p5/pipeline/test_isim_beh.exe
+Fuse Memory Usage: 29424 KB
+Fuse CPU Usage: 859 ms

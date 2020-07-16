@@ -1,0 +1,37 @@
+Running: D:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o D:/study/DDandCA/Verilog/p4_yj/test1_isim_beh.exe -prj D:/study/DDandCA/Verilog/p4_yj/test1_beh.prj work.test1 work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 12
+Turning on mult-threading, number of parallel sub-compilation jobs: 24 
+Determining compilation order of HDL files
+Analyzing Verilog file "D:/study/DDandCA/Verilog/p4_yj/mux.v" into library work
+Analyzing Verilog file "D:/study/DDandCA/Verilog/p4_yj/npc.v" into library work
+Analyzing Verilog file "D:/study/DDandCA/Verilog/p4_yj/IFU.v" into library work
+Analyzing Verilog file "D:/study/DDandCA/Verilog/p4_yj/grf.v" into library work
+Analyzing Verilog file "D:/study/DDandCA/Verilog/p4_yj/extender.v" into library work
+Analyzing Verilog file "D:/study/DDandCA/Verilog/p4_yj/DM.v" into library work
+Analyzing Verilog file "D:/study/DDandCA/Verilog/p4_yj/control.v" into library work
+Analyzing Verilog file "D:/study/DDandCA/Verilog/p4_yj/ALUcontrol.v" into library work
+Analyzing Verilog file "D:/study/DDandCA/Verilog/p4_yj/ALU.v" into library work
+Analyzing Verilog file "D:/study/DDandCA/Verilog/p4_yj/mips.v" into library work
+Analyzing Verilog file "D:/study/DDandCA/Verilog/p4_yj/test1.v" into library work
+Analyzing Verilog file "D:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module IFU
+Compiling module ALU
+Compiling module ALUcontrol
+Compiling module DM
+Compiling module control
+Compiling module mux
+Compiling module extender
+Compiling module grf
+Compiling module npc
+Compiling module mips
+Compiling module test1
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+WARNING:Simulator - Unable to copy libPortabilityNOSH.dll to the simulation executable directory: boost::filesystem::copy_file: 系统找不到指定的路径。, "isim\test1_isim_beh.exe.sim\libPortability.dll".
+Compiled 12 Verilog Units
+Built simulation executable D:/study/DDandCA/Verilog/p4_yj/test1_isim_beh.exe
+Fuse Memory Usage: 28328 KB
+Fuse CPU Usage: 421 ms
